@@ -1,0 +1,22 @@
+{
+  "trailingSlash": "auto",
+  "routes": [
+    {
+      "route": "/assets/*",
+      "headers": {
+        "Cache-Control": "public, max-age=31536000, immutable"
+      }
+    },
+    {
+      "route": "/img/*",
+      "headers": {
+        "Cache-Control": "public, max-age=86400, immutable"
+      }
+    }
+  ],
+  "globalHeaders": {
+    "Cache-Control": "public, max-age=300",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET, OPTIONS"
+  }
+}

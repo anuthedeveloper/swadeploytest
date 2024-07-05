@@ -1,0 +1,25 @@
+{
+    "name": "Ludenso Explore",
+    "short_name": "LudensoExplore",
+    "icons": [
+        {
+            "src": "/img/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "path/to/icon-maskable-196x916.png",
+            "sizes": "196x196",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "theme_color": "#14133E",
+    "background_color": "#14133E",
+    "display": "standalone"
+}
