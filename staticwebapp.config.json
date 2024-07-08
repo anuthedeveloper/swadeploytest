@@ -2,13 +2,6 @@
   "trailingSlash": "auto",
   "routes": [
     {
-      "route": "/*",
-      "headers": {
-        "cache-control": "public, max-age=31536000",
-        "content-encoding": "br"
-      }
-    },
-    {
       "route": "/assets/*",
       "headers": {
         "Cache-Control": "public, max-age=31536000, immutable",
@@ -19,6 +12,13 @@
       "route": "/img/*",
       "headers": {
         "Cache-Control": "public, max-age=86400, immutable",
+        "content-encoding": "br"
+      }
+    },
+    {
+      "route": "/*",
+      "headers": {
+        "cache-control": "public, max-age=31536000",
         "content-encoding": "br"
       }
     }
